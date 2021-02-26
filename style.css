@@ -71,3 +71,48 @@ img {
 .clear {
   clear: both;
 }
+
+/********************************************************************************************************************************
+RESPONSIVE FOR MOBILES < 420px
+*********************************************************************************************************************************/
+
+@media screen and (max-width: 420px) {
+
+    /*LEZIONI SECTION*/
+    #lezioni .row .left,
+    #lezioni .row .right {
+      width: 100%;
+      margin: 30px auto;
+      line-height: 35px;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    /*CONTAINER GRIGIO*/
+    .container.grey {
+      background: white;
+    }
+
+    /*STEPS SECTION*/
+    #steps .row .left,
+    #steps .row .central,
+    #steps .row .right {
+      width: 100%;
+      margin: 30px auto;
+      line-height: 35px;
+      background: #f9f9f9;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    /*WHY SECTION*/
+    #why .row .first, 
+    #why .row .second, 
+    #why .row .third {
+      margin: 30px auto;
+      line-height: 35px;
+      background: #f9f9f9;
+      text-align: center;
+      font-size: 30px;
+    }
+}
